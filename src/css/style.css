@@ -32,6 +32,9 @@ body {
 .hero-img {
   width: 80%; }
 
+.feeney-keating {
+  letter-spacing: 10px; }
+
 h1 {
   font-weight: bold;
   font-size: 3.5em; }
@@ -40,7 +43,7 @@ h1 {
   color: black; }
 
 #join-container {
-  background: url("/assets/screen1.jpg") no-repeat;
+  background: url("/assets/medicalengineering.jpg") no-repeat;
   background-size: cover; }
   #join-container h2 {
     letter-spacing: 4px;
@@ -59,3 +62,12 @@ h1 {
 
 .sub-headings {
   font-weight: 550; }
+
+.about-text {
+  line-height: 32px; }
+
+.contact-section {
+  background-color: #222;
+  background-image: url("/assets/map-image.png");
+  background-position: center;
+  background-repeat: no-repeat; }
