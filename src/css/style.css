@@ -2,9 +2,16 @@ body {
   color: white;
   font-family: "Raleway"; }
 
+.iso-placeholder {
+  background: url("/assets/isocertified.png");
+  background: cover; }
+
+.image-container {
+  margin: auto; }
+
 .navbar {
   width: 100%;
-  background: none !important; }
+  background: white; }
   @media (max-width: 34em) {
     .navbar {
       background: black !important; } }
@@ -24,7 +31,7 @@ body {
         color: #fff !important; } }
 
 #hero {
-  background: url("/assets/bg.jpg") no-repeat;
+  background: url("/assets/medicalengineering.jpg") no-repeat;
   background-size: cover;
   min-height: 600px;
   background-position: 0 60%; }
@@ -42,19 +49,20 @@ h1 {
 .feature-wrapper {
   color: black; }
 
-#join-container {
-  background: url("/assets/medicalengineering.jpg") no-repeat;
-  background-size: cover; }
-  #join-container h2 {
+#about-container {
+  background: url("/assets/bgblue.jpg");
+  background-position: cover;
+  background-repeat: repeat; }
+  #about-container h2 {
     letter-spacing: 4px;
     font-weight: bold; }
-  #join-container h4 {
+  #about-container h4 {
     color: grey; }
-  #join-container .form-control {
+  #about-container .form-control {
     background: #111111;
     border: 3px solid #2F2F2F;
     padding: 10px; }
-  #join-container .btn {
+  #about-container .btn {
     padding: 12px !important;
     border: none !important;
     color: #000000 !important;
@@ -66,8 +74,13 @@ h1 {
 .about-text {
   line-height: 32px; }
 
-.contact-section {
-  background-color: #222;
-  background-image: url("/assets/map-image.png");
-  background-position: center;
-  background-repeat: no-repeat; }
+.block {
+  display: block; }
+
+.paper-repeat {
+  background: url("/assets/bgrepeater.jpg");
+  background-position: cover;
+  background-repeat: repeat; }
+
+.font-14 {
+  font-size: 14px; }

@@ -7,11 +7,20 @@ body{
     font-family: "Raleway";
 }
 
+.iso-placeholder{
+    background: url('/assets/isocertified.png');
+    background: cover;
+}
+
+.image-container{
+    margin: auto;
+}
+
 
 .navbar{
 
     width: 100%;
-    background: none !important;
+    background: white;
 
     @media(max-width:34em){
         background: black !important;
@@ -43,12 +52,10 @@ body{
 }
 
 #hero{
-    background: url('/assets/bg.jpg') no-repeat;
+    background: url('/assets/medicalengineering.jpg') no-repeat;
     background-size: cover;
     min-height: 600px;
      background-position: 0 60%;
-    // -webkit-filter: grayscale(105%); /* Safari 6.0 - 9.0 */
-    // filter: grayscale(105%);
 }
 
 .hero-img{
@@ -68,9 +75,10 @@ h1{
     color: black;
 }
 
-#join-container{
-    background: url('/assets/medicalengineering.jpg') no-repeat;
-    background-size: cover;
+#about-container{
+    background: url('/assets/bgblue.jpg');
+    background-position: cover;
+    background-repeat: repeat;
     h2{
         letter-spacing: 4px;
         font-weight: bold;
@@ -101,9 +109,16 @@ h1{
     line-height: 32px;
 }
 
-.contact-section{
-    background-color: #222;
-    background-image: url('/assets/map-image.png');
-    background-position: center;
-    background-repeat: no-repeat;
+.block{
+    display: block;
+}
+
+.paper-repeat{
+    background: url('/assets/bgrepeater.jpg');
+    background-position: cover;
+    background-repeat: repeat;
+}
+
+.font-14{
+    font-size: 14px;
 }
