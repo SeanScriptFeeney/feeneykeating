@@ -7,6 +7,10 @@ body{
     font-family: "Raleway";
 }
 
+.text-secondary{
+   color:#868e96!important;
+}
+
 .iso-placeholder{
     background: url('/assets/isocertified.png');
     background: cover;
@@ -14,6 +18,15 @@ body{
 
 .image-container{
     margin: auto;
+}
+
+.twentyfive-year-logo{
+    width: 50%; 
+    padding-right: 10px;
+}
+
+.iso-logo{
+    width: 35%;
 }
 
 
@@ -73,6 +86,10 @@ h1{
 
 .feature-wrapper{
     color: black;
+}
+
+.clients-container{
+    background-color: #2595FF;
 }
 
 #about-container{
